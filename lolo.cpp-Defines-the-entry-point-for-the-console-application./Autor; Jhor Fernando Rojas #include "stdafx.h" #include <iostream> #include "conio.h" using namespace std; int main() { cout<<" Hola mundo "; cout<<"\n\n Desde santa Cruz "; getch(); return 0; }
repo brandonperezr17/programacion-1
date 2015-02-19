@@ -1,0 +1,13 @@
+// hola mundo santa cruz.cpp : Defines the entry point for the console application.
+// Autor; Jhor Fernando Rojas
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+int main()
+{
+cout<<" Hola mundo ";
+cout<<"\n\n Desde santa Cruz ";
+getch();
+return 0;
+}

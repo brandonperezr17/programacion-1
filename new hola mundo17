@@ -1,0 +1,19 @@
+// newholamundo17.cpp SO aja
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+void main()
+{
+	int edad;
+	cout<<"Ingresa tu edad:    ";
+	cin >> edad;
+	cout<<"tu edad es:  ";
+	cout<<edad;
+	getch();
+}

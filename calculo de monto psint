@@ -1,0 +1,13 @@
+Proceso calculodeporcentaje
+	Escribir "Ingrese el monto:";
+	Leer A;
+	Si A > 20000 Entonces
+		B<-A*2/100
+	Sino
+		B<-A*1/100
+	Fin Si
+	Escribir "El porcentaje es:",B;
+	P<-A+B
+	Escribir "El monto a pagar es:",P;
+	
+FinProceso

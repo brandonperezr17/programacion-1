@@ -1,0 +1,27 @@
+// Programa: calculodemonto.cpp
+// Autor: Brandon Perez Rojas
+// Fecha: 17/03/2015
+// 
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+void main ()
+{int A,B,P;
+    cout<<"Ingrese el monto: ";
+	cin>> A;
+	if (A > 20000)
+	{B = A*2/100;
+	}
+	else
+	{B = A*1/100;
+	}
+	P = A + B;
+	cout<<"El monto a pagar es: "<< P;
+	getch();
+
+}

@@ -1,0 +1,38 @@
+// Programa: Parcial1.cpp
+// Autor:    Brandon Perez
+// Fecha:    19/03/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{int S,A;
+    cout<<"Ingrese su salario: ";
+	cin>> S;
+	if (S < 3600)
+	{cout<<"Su salario es menor a 3600 la tasa de AFP es de 0 porciento";
+	}
+	else
+	{A = S*15/100;
+	 cout<<"El monto a pagar es: "<<A;
+	}
+	getch();
+}
+
+
+pseudocodigo
+
+Proceso parcial1
+	Escribir "Ingrese su salario: ";
+	Leer S,A;
+	Si (S < 3600) Entonces
+		Escribir "Su salario es menor a 3600 la tasa de AFP es de 0 porciento";
+	Sino
+		A<-S*15/100
+		Escribir "El monto a pagar es de: ", A;
+	Fin Si
+	
+FinProceso

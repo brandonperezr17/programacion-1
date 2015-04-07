@@ -1,0 +1,25 @@
+// Programa: Validacion de Datos.cpp
+// Autor:    Brandon Perez
+// Fecha:    7/4/2015
+// Version:  Z1
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{int e;
+ do
+ {cin>> e;
+  cout<<"Ingrese su edad: "<<e;
+ }while(0>=e && e<=100);
+  if(e >=18) 
+  {cout<<"Usted esta habil para votar";
+  }
+  else
+  {cout<<"Usted NO esta habil para votar";
+  }
+  getch();
+}
